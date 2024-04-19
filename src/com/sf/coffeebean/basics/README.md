@@ -17,11 +17,7 @@
 
 1. Introduction
 2. Language Fundamentals
-3. [OOPs Concepts](src/com/sf/coffeebean/basics/oops "Object Oriented Programming")]
-4. Section
-5. Section
-6. Section
-7. Section
+3. Object Oriented Programming
 
 
 ## Language Fundamentals
@@ -49,6 +45,13 @@ DataTypes  - 8 Primitive Datatypes
       2. Floating-Point ( float, double )
       3. Character ( char )
 ````
+All Numeric Datatypes are Signed Datatypes, because we can represent both Positive and negative.
+
+Most Significant Bit (MSB) act as signed bit. (1=> Positive, 0 => Negative)
+
+Positive numbers are represented directly in the memory.
+
+Negative numbers are represented in 2s Complement.
 
 ### Literals
 ````
@@ -84,6 +87,12 @@ Chars can also be represented in unicode ( example : '\u0061' )
 
 
 
+### CommandLine Arguments
+````
+  • Used to pass arguments to the main program
+  • JVM is responsible for creating String array.
+  • JVM will invoke main method with the arguments.
+````
 
 
 
